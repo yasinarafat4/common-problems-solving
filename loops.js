@@ -15,6 +15,12 @@ for (initialization; condition; step value) {
   code block
 }
 
+# Initialization: It's where we set up the starting point for your loop. We decide from which index our loop will begin, typically by initializing a variable.
+
+# Condition: This decides for how long the loop will keep running. As long as the condition is true, the loop continues; when it's false, the loop stops.
+
+# Step Value: It determines how the loop variable changes after each iteration. This part is crucial for preventing an infinite loop and controlling the progress of our loop.
+
 /Example/
 for (let i = 0; i < arr.length; i++) {
   const element = arr[i];
