@@ -1,22 +1,30 @@
 /* Loops are used in JavaScript to perform repeated tasks based on a condition. Conditions typically return true or false . A loop will continue running until the defined condition returns false. Example:
 
-text += cars[0] + "<br>";
-text += cars[1] + "<br>";
-text += cars[2] + "<br>";
-text += cars[3] + "<br>";
-text += cars[4] + "<br>";
-text += cars[5] + "<br>";
+const arr = [1,2,3,4,5,6]
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+console.log(arr[3]);
+console.log(arr[4]);
+console.log(arr[5]);
 
 Instead of writing so many lines, we can write loop in just one line below:
 
-for (let i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
+/Rules/
+for (initialization; condition; step value) {
+  code block
+}
+
+/Example/
+for (let i = 0; i < arr.length; i++) {
+  const element = arr[i];
+  console.log(element);
 }
 
 There are several types of loops in JavaScript, including "for", "for/in", "for/of", "while", and "do/while". Here are examples of each:
 */
 
-// For loop: The for loop is used when we know how many times we want to iterate. Example: Print numbers from 1 to 5 using a for loop
+// For loop: For loop used only for array. The for loop is used when we know how many times we want to iterate. Example: Print numbers from 1 to 5 using a for loop
 for (let i = 1; i <= 5; i++) {
   console.log(i);
 }
