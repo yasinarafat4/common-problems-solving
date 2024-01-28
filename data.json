@@ -1,49 +1,47 @@
-// Services
-[
-  {
-    "_id": "1",
-    "image": "https://i.ibb.co/MMYgBwD/service-1.png",
-    "name": "Corporate event",
-    "description": "Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem.Ut posuere felis arcu tellus tempus in in ultricies.Ut posuere felis arcu tellus tempus in in ultricies.",
-    "features": [
-      "One day pas access all lecture",
-      "Lunch and Snack",
-      "Meet Event Speaker",
-      "Front Seat",
-      "One day pas access all lecture"
-    ]
-  },
-  {
-    "_id": "2",
-    "image": "https://i.ibb.co/Q88Dfdx/service-2.png",
-    "name": "Organization event",
-    "description": "Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem.Ut posuere felis arcu tellus tempus in in ultricies.Ut posuere felis arcu tellus tempus in in ultricies.",
-    "features": [
-      "One day pas access all lecture",
-      "Lunch and Snack",
-      "Meet Event Speaker",
-      "Front Seat",
-      "One day pas access all lecture"
-    ]
-  },
-  {
-    "_id": "3",
-    "image": "https://i.ibb.co/9HM18NN/service-3.png",
-    "name": "Wedding event",
-    "description": "Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem.Ut posuere felis arcu tellus tempus in in ultricies.Ut posuere felis arcu tellus tempus in in ultricies.",
-    "features": [
-      "One day pas access all lecture",
-      "Lunch and Snack",
-      "Meet Event Speaker",
-      "Front Seat",
-      "One day pas access all lecture"
-    ]
-  }
-]
+{
+  "services": [
+    {
+      "_id": "1",
+      "image": "https://i.ibb.co/MMYgBwD/service-1.png",
+      "name": "Corporate event",
+      "description": "Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem.Ut posuere felis arcu tellus tempus in in ultricies.Ut posuere felis arcu tellus tempus in in ultricies.",
+      "features": [
+        "One day pass access all lecture",
+        "Lunch and Snack",
+        "Meet Event Speaker",
+        "Front Seat",
+        "One day pass access all lecture"
+      ]
+    },
+    {
+      "_id": "2",
+      "image": "https://i.ibb.co/Q88Dfdx/service-2.png",
+      "name": "Organization event",
+      "description": "Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem.Ut posuere felis arcu tellus tempus in in ultricies.Ut posuere felis arcu tellus tempus in in ultricies.",
+      "features": [
+        "One day pass access all lecture",
+        "Lunch and Snack",
+        "Meet Event Speaker",
+        "Front Seat",
+        "One day pass access all lecture"
+      ]
+    },
+    {
+      "_id": "3",
+      "image": "https://i.ibb.co/9HM18NN/service-3.png",
+      "name": "Wedding event",
+      "description": "Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem.Ut posuere felis arcu tellus tempus in in ultricies.Ut posuere felis arcu tellus tempus in in ultricies.",
+      "features": [
+        "One day pass access all lecture",
+        "Lunch and Snack",
+        "Meet Event Speaker",
+        "Front Seat",
+        "One day pass access all lecture"
+      ]
+    }
+  ],
 
-
-// Event Items
-[
+  "eventItems": [
     {
       "_id": "1",
       "image": "https://i.ibb.co/MCGjHWB/event-item-1.png",
@@ -69,11 +67,9 @@
       "image": "https://i.ibb.co/dg7ff53/event-item-5.png",
       "name": "Event Item-5"
     }
-  ]
+  ],
 
-
-// Recent Services
-  [
+  "recentServices": [
     {
       "_id": "1",
       "image": "https://i.ibb.co/BfPSVb2/recent-events-1.png",
@@ -81,11 +77,11 @@
       "author": "Melvina Spring"
     },
     {
-        "_id": "2",
-        "image": "https://i.ibb.co/M7D9HVf/recent-events-2.png",
-        "name": "Flower Decorations",
-        "author": "Melvina Spring"
-      },
+      "_id": "2",
+      "image": "https://i.ibb.co/M7D9HVf/recent-events-2.png",
+      "name": "Flower Decorations",
+      "author": "Melvina Spring"
+    },
     {
       "_id": "3",
       "image": "https://i.ibb.co/9HM18NN/service-3.png",
@@ -99,3 +95,4 @@
       "author": "Melvina Spring"
     }
   ]
+}
