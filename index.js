@@ -1,4 +1,3 @@
-const num = [1,2,2,2,3]
+const num = [1,2,2,2,3,4,4]
 
-let uniqNum = [...new Set(num)]
-console.log(uniqNum);
+let unique 
