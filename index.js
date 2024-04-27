@@ -10,3 +10,4 @@
 // number(2,4)
 
 
+// Findout sum of 3,4,5 
