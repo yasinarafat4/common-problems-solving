@@ -16,3 +16,5 @@ sum(3, 4, 5);
 // findout the unique number
 const num = [1,2,2,2,3,4,4]
 
+const uniqueNum = [...new Set(num)];
+console.log(uniqueNum);
