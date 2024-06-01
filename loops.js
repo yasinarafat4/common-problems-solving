@@ -52,7 +52,15 @@ for (const index in numberArray2) {
 
 // Note: using for...in with arrays is not the recommended approach
 // Using for...in loop with an object
+const person = {
+  name: "John",
+  age: 30,
+  job: "developer",
+};
 
+for (const key in person) {
+  console.log(`${key}: ${person[key]}`);
+}
 
 //-------------------------------------
 // While Loop: The while loop is used when we don't know the number of iterations, and it continues as long as the specified condition is true. // Example: Print numbers from 1 to 5 using a while loop.
