@@ -131,15 +131,5 @@ function sum(num1, num2) {
   let uniqueNum = [...new Set(num)];
   // console.log(uniqueNum);
   
-  // Using this keyword
-  
-  const person = {
-    firstName: "Yasin",
-    lastName: "Arafat",
-    fullName: function () {
-      return this.firstName + " " + this.lastName;
-    },
-  };
-  
-  // console.log(person.fullName());
+ 
   
