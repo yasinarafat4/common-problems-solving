@@ -45,3 +45,11 @@ for (let n of num) {
   }
 }
 // console.log(uniqueNum);
+
+const FormatDate = (timestamp) => {
+  const options = { year: "numeric", month: "short", day: "numeric" };
+  return new Date(timestamp).toLocaleDateString("en-US", options);
+};
+
+const newDate = FormatDate(Date.now());
+console.log(newDate);
