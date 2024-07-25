@@ -44,7 +44,7 @@ for (var i = 1; i <= 100; i++){
 var numbs = [1,2,3,4,5,6,7,8,9];
 // console.log(numbs.slice(3, 6));
 
-var come = "he is coming";
+var come = "He is coming";
 // console.log(come.substring(3, 9));
  
 var numbs = [0,1,2,3,4,5,6,7,8,9];
