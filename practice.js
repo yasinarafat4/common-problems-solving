@@ -44,7 +44,7 @@ for (let n of num) {
     uniqueNum.push(n);
   }
 }
-// console.log(uniqueNum);
+console.log(uniqueNum);
 
 const FormatDate = (timestamp) => {
   const options = { year: "numeric", month: "short", day: "numeric" };
