@@ -39,11 +39,11 @@ for (let i = 0; i < arr.length; i++) {
 const num = [2, 3, 4, 5, 4, 6, 7, 7, 7];
 const uniqueNum = [];
 
-for (let n of num) {
-  if (!uniqueNum.includes(n)) {
-    uniqueNum.push(n);
-  }
-}
+// for (let n of num) {
+//   if (!uniqueNum.includes(n)) {
+//     uniqueNum.push(n);
+//   }
+// }
 // console.log(uniqueNum);
 
 const FormatDate = (timestamp) => {
