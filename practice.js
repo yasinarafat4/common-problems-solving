@@ -52,4 +52,4 @@ const FormatDate = (timestamp) => {
 };
 
 const newDate = FormatDate(Date.now());
-console.log(newDate);
+// console.log(newDate);
