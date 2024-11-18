@@ -48,5 +48,5 @@ var come = "He is Coming";
 // console.log(come.substring(3, 9));
  
 var numbs = [0,1,2,3,4,5,6,7,8,9];
-// console.log(numbs.includes(0));
+console.log(numbs.includes(0));
 
